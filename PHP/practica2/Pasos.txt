@@ -1,0 +1,10 @@
+1 - Crear la Base de Datos
+        Nombre: colegio
+        User: administrador
+        Pwd: admin123456
+
+2 - Crear el Dashboard para Ingresar Usuarios
+        Datos de Administrador:
+            User: Administrador
+            Pwd: admin123456
+

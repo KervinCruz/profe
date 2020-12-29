@@ -1,0 +1,40 @@
+create database colegio
+use colegio
+
+create table administradores(
+	id int not null AUTO_INCREMENT PRIMARY KEY,
+    usuario varchar(30) not null,
+    nombre varchar(60) not null,
+    pwd varchar(50) not null
+);
+
+INSERT INTO administradores (usuario, nombre, pwd) VALUES ('Administrador','Kervin C. Curet','admin123456');
+
+create table profesores(
+	id_profesor int not null AUTO_INCREMENT PRIMARY KEY,
+    usuario varchar(30) not null,
+    nombre varchar(60) not null,
+    pwd varchar(50) not null
+);
+create table alumnos(
+	id_alumno int not null AUTO_INCREMENT PRIMARY KEY,
+    usuario varchar(30) not null,
+    nombre varchar(60) not null,
+    edad int not null,
+    pwd varchar(50) not null
+);
+create table materias(
+	id_materia int not null AUTO_INCREMENT PRIMARY KEY,
+    nombre varchar(60) not null
+);
+create table calificaciones(
+	id_calificacion int not null AUTO_INCREMENT PRIMARY KEY,
+    id_alumno int not null,
+    id_materia int not null,
+    calificacion int not null,
+    id_profesor int not null,
+    
+    FOREIGN KEY(id_alumno) REFERENCES alumnos(id_alumno),
+    FOREIGN KEY(id_materia) REFERENCES materias(id_materia),
+    FOREIGN KEY(id_profesor) REFERENCES profesores(id_profesor)
+);

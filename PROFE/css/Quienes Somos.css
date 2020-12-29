@@ -1,0 +1,463 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+/***********************************************************************Menu*************************************************************/
+
+.active{
+  position: relative;
+  color: black;
+ background: rgba(108, 120, 122, 0.4);
+ border-radius: 5px;
+
+}
+
+/*Servicio al Cliente*/
+.navbar .AtencionCliente .AtencionCliente-1{
+  background: rgb(54, 175, 245);
+}
+.navbar .AtencionCliente .AtencionCliente-1:hover{
+  background: rgb(0, 159, 252);
+}
+.navbar .AtencionCliente .AtencionCliente-1 a{
+  color: white;
+  text-decoration: none;
+  
+}
+/*Servicio al Cliente*/
+
+.navbar-toggler {
+  background: rgba(108, 120, 122, 0.4);
+  
+}
+
+.navbar {
+  width: 100%;
+  position: relative;
+  background: white;
+ 
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  width: 100%;
+  position: relative;
+  color: black;
+ 
+}
+
+
+.navbar .navbar-nav   {
+  position: relative;
+  color: black;
+  font-size: 18px;
+  padding: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 150px;
+  
+  
+}
+
+.nav-item{
+  margin-left: 10px;
+ 
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: black;
+
+}
+
+
+/*Dropdown items here*/
+.maria {
+  position: static;
+   
+}
+
+.mariano{
+  width: 100%;
+  position: relative;
+  right: 327px;
+ 
+}
+
+.maria1 {
+  position: relative;
+  
+}
+
+.mariano1{
+  
+  position: relative;
+  right: 253px;
+
+}
+
+.dropdown-menu {
+
+position: relative;
+background: linear-gradient(rgb(54, 175, 245,0.5),white,white);
+width: 1664px;
+height: 300px;
+margin-top: 14px;
+border-radius: 0%;
+
+}
+
+
+/*Dropdown items here*/
+
+/***********************************************************************Tamaño del Menu *************************************************************/
+
+@media screen and (max-width:1089px){
+  .navbar .navbar-nav   {
+      position: relative;
+      width: 100%;
+      color: black;
+      font-size: 18px;
+      padding: 5px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     right: 150px;
+  }
+  .dropdown-menu {
+    position: relative;
+    background: linear-gradient(rgb(54, 175, 245,0.5),white,white,rgb(54, 175, 245,0.3));
+    width:100%;
+    height: 480px;
+    border-radius: 0%;
+  
+    
+    }
+
+
+    .navbar {
+        width: 100%;
+        position: relative;
+        background: black;
+       
+    }
+    
+    
+    .nav-item{
+        width: 100%;
+        position: relative;
+        
+       
+    }
+    
+    .nav-link {
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
+    .lucas{
+        
+        position: relative;
+       
+    } 
+    
+    .mariano{
+     position: relative;
+      right: 2px;
+     overflow: hidden;
+    }
+  
+    .lucas1{
+        
+      position: relative;
+     
+  } 
+  
+  .mariano1{
+   position: relative;
+    right: 0px;
+   overflow: hidden;
+  }
+
+  .logo-a {
+      position: relative;
+      right: 18px;
+  }
+   
+} 
+
+@media screen and (max-width: 950px){
+  .navbar .navbar-nav   {
+      position: relative;
+      width: 100%;
+      color: black;
+      font-size: 18px;
+      padding: 5px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      right: 150px;
+  }
+
+
+  .dropdown-menu {
+    position: relative;
+    background: linear-gradient(rgb(54, 175, 245,0.5),white,white,rgb(54, 175, 245,0.3));
+    width: 100%;
+    height: 450px;
+    border-radius: 0%;
+  
+    
+    }
+
+
+    .navbar {
+        width: 100%;
+        position: relative;
+        background: black;
+       
+    }
+    
+    
+    .nav-item{
+        width: 100%;
+        position: relative;
+        
+       
+    }
+    
+    .nav-link {
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
+    .lucas{
+        
+        position: relative;
+       
+    } 
+    
+    .mariano{
+     position: relative;
+      right: 2px;
+     overflow: hidden;
+    }
+  
+    .lucas1{
+        
+      position: relative;
+     
+  } 
+  
+  .mariano1{
+   position: relative;
+    right: 0px;
+   overflow: hidden;
+  }
+
+  .logo-a {
+      position: relative;
+      right: 18px;
+  }
+  
+   
+} 
+@media screen and (max-width: 750px){
+  .navbar .navbar-nav   {
+      position: relative;
+      width: 100%;
+      color: black;
+      font-size: 18px;
+      padding: 5px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      right: 150px;
+  }
+  
+  
+  .dropdown-menu {
+      position: relative;
+      background: linear-gradient(rgb(54, 175, 245,0.5),white,white,rgb(54, 175, 245,0.3));
+      width: 100%;
+      height: 800px;
+      border-radius: 0%;
+    
+      
+      }
+
+
+      .navbar {
+          width: 100%;
+          position: relative;
+          background: black;
+         
+      }
+      
+      
+      .nav-item{
+          width: 100%;
+          position: relative;
+          
+         
+      }
+      
+      .nav-link {
+          width: 100%;
+          position: relative;
+          left: 0px;
+      }
+      .lucas{
+          
+          position: relative;
+         
+      } 
+      
+      .mariano{
+       position: relative;
+        right: 8px;
+       overflow: hidden;
+      }
+    
+      .lucas1{
+          
+        position: relative;
+       
+    } 
+    
+    .mariano1{
+     position: relative;
+      right: 0px;
+     overflow: hidden;
+    }
+  
+   
+    
+     .logo-a {
+         position: relative;
+         right: 18px;
+     }
+ }  
+/***********************************************************************Tamaño del Menu*************************************************************/
+
+
+/***********************************************************************Logo Tamaño*************************************************************/
+
+.navbar img {
+  position: relative;
+width: 70px;
+left: 35px;
+}
+/************************************************************************Logo Tamaño*************************************************************/
+
+
+/************************************************************************Jumbotron*************************************************************/
+.jumbotron-contacto{
+    background-image: url(../img/VistaConsultas/nosotros.jpg);
+  background-attachment: fixed;
+    background-size:100%;
+    max-height:370px;
+    background-position: top;
+  
+  }
+  
+  @media screen and (max-width:1099px){
+    .jumbotron-contacto{
+        background-image: url(../img/VistaConsultas/imagenesinesesarias/Consultoria-3.jpg);
+      background-attachment: fixed;
+        background-size:100%;
+        max-height: 200px;
+      
+      }
+
+      .jumbotron-contacto h5,h2 {
+        position: relative;
+       margin-top: -70px;
+        left: 2px;
+        }
+        
+        .jumbotron-contacto .jumbotron2 {
+        background:rgba(0,0,0,0.5);
+        position: relative;
+        max-height: 200px;
+       
+        } 
+
+ }
+
+
+
+.jumbotron-contacto h5,h2 {
+position: relative;
+top: 20px;
+left: 4px;
+}
+
+.jumbotron-contacto .jumbotron2 {
+background:rgba(0,0,0,0.5);
+position: relative;
+height: 400px;
+
+} 
+
+
+/************************************************************************Jumbotron*************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************************************************ Footer *************************************************************/
+
+.footer-log{
+  width: 150px;
+}
+
+.footer-text .footer-text1 {
+  text-decoration: none;
+  color: white;
+}
+
+
+.footer .footer-text2 {
+
+  position: relative;
+ margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************************************************ Footer *************************************************************/
